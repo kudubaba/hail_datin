@@ -10,15 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20180226154250) do
+ActiveRecord::Schema.define(version: 20180226160700) do
 
   create_table "interests", force: :cascade do |t|
     t.string "interest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-=======
-ActiveRecord::Schema.define(version: 20180226160700) do
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
@@ -31,7 +29,6 @@ ActiveRecord::Schema.define(version: 20180226160700) do
     t.integer "age"
     t.integer "interest_id"
     t.integer "direct_message_id"
->>>>>>> master
   end
 
 end
